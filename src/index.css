@@ -1,1 +1,5 @@
 @import "tailwindcss";
+@theme inline{
+      --font-enter: 'Enter', sans-serif;
+  --font-paci: 'Pacifico', cursive;
+}

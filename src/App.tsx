@@ -9,7 +9,7 @@ import ContactUs from "./Pages/ContactUs"
 
 function App() {
   return (
-    <div className="App">
+    <div className="App font-enter">
       <BrowserRouter>
       <Routes>
         <Route path="/" element={<Home/>}/>
