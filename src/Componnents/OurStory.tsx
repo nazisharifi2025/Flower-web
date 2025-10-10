@@ -5,7 +5,7 @@ function OurStory() {
     <div className='h-screen w-full flex justify-center items-center gap-5 '>
         <div className='h-[80vh] w-[550px] relative shadow-xl shadow-gray-300 flex flex-col gap-4 items-start justify-start p-12'>
         <h2 className='text-[#D83054]'>Our Story</h2>
-        <h1 className='text-3xl'>We Provide Various Types Of Flowers</h1>
+        <h1 className='text-3xl font-Headeing'>We Provide Various Types Of Flowers</h1>
         <p className='text-gray-500'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Doneca feugiat purus. Duis turpis nunc aliquam id nunc acconvallis dictum nisi. Curabitur vehicula tincidunt sapien velcac. Donec diam augue consequat sit amet metus acbibendum mattis massauis mollis ligula pretium consequat.</p>
         <p className='text-gray-500'>Praesent blandit mollis tristique. Nulla molestie consectetur erat, id convallis libero portaetonec convallis erat lorem. </p>
         <p className='text-gray-500'>libero porta onec convallis erat lorem, at convallis diam tincidunt Pellentesque ornare purus sed finibus.</p>

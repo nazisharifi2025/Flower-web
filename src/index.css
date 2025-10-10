@@ -3,3 +3,8 @@
       --font-enter: 'Enter', sans-serif;
   --font-paci: 'Pacifico', cursive;
 }
+@layer components{
+  .font-Headeing{
+    font-family: 'Playfair Display', serif;
+  }
+}
