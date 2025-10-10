@@ -5,6 +5,10 @@
 }
 @layer components{
   .font-Headeing{
-    font-family: 'Playfair Display', serif;
+    /* font-family: 'Playfair Display', serif; */
+    /* font-family: 'Cormorant Garamond', serif; */
+    /* font-family: 'Libre Baskerville', serif */
+    font-family: 'Lora', serif
+    
   }
 }
