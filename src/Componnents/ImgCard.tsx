@@ -2,7 +2,7 @@ import React from 'react'
 
 function ImgCard() {
   return (
-    <div className='h-screen w-full flex justify-end gap-12 p-12 '>
+    <div className='h-[130vh] w-full flex justify-end gap-12 p-12 '>
         <div className='h-[500px] w-[400px] border-8 shadow-xl shadow-gray-400 relative outline-4 border-white outline-white'>
             <img src="/images/flower1.jpg" className='h-full w-full' alt="" />
              <div className='h-[330px] w-[330px] border-8 absolute -bottom-36 -left-36 shadow-xl shadow-gray-400 outline-4 border-white outline-white'>
