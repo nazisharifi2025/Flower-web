@@ -11,4 +11,11 @@
     font-family: 'Lora', serif
     
   }
+  .test{
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    height: 100%;
+    padding: 38px;
+  }
 }
