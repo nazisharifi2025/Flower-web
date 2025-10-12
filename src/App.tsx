@@ -25,7 +25,7 @@ function App() {
         <Route path="/NotFound" element={<NotFoud/>}/>
         <Route path="/News" element={<News/>}/>
         <Route path="/SengelNews" element={<SengelNews/>}/>
-        <Route path="/Contuct" element={<ContactUs/>}/>
+        <Route path="/Contact" element={<ContactUs/>}/>
       </Routes>
       </BrowserRouter>
     </div>
