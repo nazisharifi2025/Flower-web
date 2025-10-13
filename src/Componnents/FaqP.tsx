@@ -1,8 +1,8 @@
-import { ChevronRight } from 'lucide-react'
+import { ChevronRight, PersonStanding } from 'lucide-react';
 import React, { useState } from 'react'
 
-function FaqCom() {
-    const Faq = [
+function FaqP() {
+         const Faq = [
         {
             ask : "How do I make payment by my credit card?",
             Anser: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus."
@@ -16,14 +16,19 @@ function FaqCom() {
             Anser: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus."
         },
     ]
-    const [isOpin, setIsOpin] = useState<number | null>(null);
+     const [isOpin, setIsOpin] = useState<number | null>(null);
         const HandelClick = (index:number)=>{
             setIsOpin(isOpin === index? null : index);
         }
-  return (
-    <div className='h-fit w-full p-12 my-12 flex items-center justify-center space-x-3'>
-        <div className='h-[100vh] w-[90%] p-12 mx-auto flex flex-col relative shadow-lg shadow-gray-300'>
-            <div className='h-full w-1/2 flex flex-col gap-3 '>
+     return (
+    <div className='h-fit w-full py-12 px-6 my-12 flex items-center justify-center space-x-3'>
+        <div className='h-fit space-x-8 justify-between p-12 mx-auto flex   '>
+                <div className='h-[90vh] shadow-lg  shadow-gray-400 w-[430px] bg-[#D83054] relative flex justify-start p-12 items-end'>
+            <img src="/images/2258.webp" className='h-[65vh] w-[290px] absolute -top-14 left-12 hover:-top-16 transition-all duration-700' alt="" />
+            <img src="/images/flower1.jpg" className='h-[65vh] w-[290px] absolute top-16 hover:top-14 transition-all duration-700 -right-56' alt="" />
+            <h1 className='text-4xl font-Headeing text-white'> Customer Questions</h1>
+        </div>
+            <div className='h-full w-[40%] flex flex-col gap-3 '>
             <h2 className='text-[#D83054] text-xl'>FAQ</h2>
             <h1 className='text-3xl font-Headeing'>Customer Questions</h1>
             <p className='text-gray-400'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eius tempor incididunt ut labore et dolore magna aliqua.</p>
@@ -45,9 +50,7 @@ function FaqCom() {
                 {/* faq 1 endded */}
             </div>
             </div>
-            <div className='h-[120vh] shadow-lg absolute -top-12 right-12 shadow-gray-400 w-[500px] border-8 border-white outline-4 outline-white overflow-hidden'>
-            <img src="public/images/faq.jpg" className='h-full w-full hover:scale-125 transition-all duration-700 ease-in-out' alt="" />
-        </div>
+        
         </div>
         {/* div endded */}
         
@@ -55,4 +58,4 @@ function FaqCom() {
   )
 }
 
-export default FaqCom
+export default FaqP
