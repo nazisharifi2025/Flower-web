@@ -5,14 +5,14 @@ import React from 'react'
 function LatestNews() {
   return (
     <div className='w-full h-fit flex flex-col gap-2 my-16'>
-        <div className='flex justify-between items-center w-[90%] mx-auto'>
+        <div className='flex justify-between md:flex-row flex-col items-center w-[90%] mx-auto'>
             <div className='flex flex-col gap-3'>
                 <h2 className='text-[#D83054] text-xl'>Latest News</h2>
                 <h1 className='text-5xl font-Headeing'>Tips & Article</h1>
             </div>
             <button className='text-white bg-[#D83054] px-8 py-5'>ALL NEWS</button>
         </div>
-    <div className='h-fit w-full grid grid-cols-3 gap-4  p-6 items-center justify-center'>
+    <div className='h-fit w-full grid lg:grid-cols-3 grid-cols-1 gap-4  lg:px-6 py-6  md:px-12 px-2 items-center justify-center'>
         <div className='flex flex-col gap-6 justify-center p-6 items-start my-auto shadow-md h-full shadow-gray-400'>
             <h1 className='text-3xl font-Headeing text-[#D83054] '>Recent News</h1>
             <div className='flex flex-col gap-3'>
