@@ -4,7 +4,7 @@ import { Home, LucideBookText, PlayCircle } from "lucide-react";
 export default function Aboutstory(){
     return(
          <div className="h-fit w-full bg-stone-50 ">
-             <div className='h-fit space-x-8 justify-between p-12 mx-auto flex   '>
+             <div className='h-fit space-x-8 lg:justify-between p-12 mx-auto flex md:w-full'>
                 <div className='h-[85vh] shadow-lg  shadow-gray-400 w-[430px] bg-[#D83054] relative flex justify-start p-12 items-end'>
             <img src="/images/row2.jpg" className='h-[65vh] w-[290px] absolute -top-14 left-12 hover:-top-16 transition-all duration-700' alt="" />
             <img src="/images/flower1.jpg" className='h-[65vh] w-[290px] absolute top-16 hover:top-14 transition-all duration-700 -right-56' alt="" />
