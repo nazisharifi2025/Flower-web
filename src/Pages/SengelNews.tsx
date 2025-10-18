@@ -1,8 +1,11 @@
 import React from 'react'
+import Articles from '../Componnents/Articles'
 
 function SengelNews() {
   return (
-    <div>SengelNews</div>
+    <div>
+      <Articles/>
+    </div>
   )
 }
 

@@ -40,7 +40,7 @@ function SpecialPricing() {
         <h1 className='text-4xl font-Headeing'>Affordable Prices</h1>
         <div className='grid lg:grid-cols-3 md:grid-cols-1 gap-6 '>
             {SpecialP.map((price , index)=>(
-            <div key={index} className='flex flex-col justify-center gap-4 items-start h-[80vh] w-[350px] shadow-md shadow-gray-400'>
+            <div key={index} className='flex flex-col justify-center gap-4 items-start lg:h-[80vh] h-[50vh] w-[350px] shadow-md shadow-gray-400'>
                 <h2 className='text-3xl font-Headeing px-3 '>{price.h1}</h2>
                 <img src={price.img} alt="" />
                 <ul className='flex flex-col gap-6 p-4 '>

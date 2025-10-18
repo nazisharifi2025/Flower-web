@@ -22,10 +22,10 @@ function FaqP() {
         }
      return (
     <div className='h-fit w-full py-12 px-6 my-12 flex lg:flex-row flex-col items-center justify-center space-x-3'>
-        <div className='h-fit space-x-8 justify-between p-12 mx-auto flex lg:flex-row flex-col'>
-                <div className='lg:h-[90vh] md:h-[70vh] shadow-lg  shadow-gray-400 w-[430px] bg-[#D83054] relative flex justify-start p-12 items-end'>
-            <img src="/images/2258.webp" className='h-[50vh] w-[290px] absolute -top-14 left-12 hover:-top-16 transition-all duration-700' alt="" />
-            <img src="/images/flower1.jpg" className='h-[50vh] w-[290px] absolute top-16 hover:top-14 transition-all duration-700 -right-56' alt="" />
+        <div className='h-fit space-x-8 justify-between lg:p-12 p-0 mx-auto flex lg:flex-row flex-col'>
+                <div className='lg:h-[90vh] md:h-[70vh] h-[50vh] shadow-lg  shadow-gray-400 md:w-[430px] w-[80%] bg-[#D83054] relative flex justify-start p-12 items-end'>
+            <img src="/images/2258.webp" className='lg:h-[70vh] md:h-[50vh] h-[30vh]  md:w-[290px] w-[160px] absolute -top-14 left-12 hover:-top-16 transition-all duration-700' alt="" />
+            <img src="/images/flower1.jpg" className='md:h-[50vh] lg:h-[70vh] h-[30vh]  md:w-[290px] w-[160px] absolute top-16  hover:top-14 transition-all duration-700 -right-24 md:-right-56' alt="" />
             <h1 className='text-4xl font-Headeing text-white'> Customer Questions</h1>
         </div>
             <div className='h-full lg:w-[40%] w-full my-4 flex flex-col gap-3 '>
