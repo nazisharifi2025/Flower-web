@@ -6,8 +6,13 @@ function Instagram() {
     <div className='h-fit w-full flex flex-col gap-5 items-center justify-center'>
         <h3 className='text-xl text-[#D83054] '>@flowtrist.insta</h3>
         <h1 className='text-4xl font-Headeing'>Flowtrist On Instagram</h1>
+<<<<<<< HEAD
         <div className='w-full h-fit grid lg:grid-cols-6 md:grid-cols-3 grid-cols-2 mx-auto justify-center items-center py-3'>
             <div className='lg:h-[220px] lg:w-[220px] md:h-[225px] md:w-[223px] h-[200px] w-[200px] relative group'>
+=======
+        <div className='w-full h-fit grid lg:grid-cols-6 md:grid-cols-3 md:gap-12 lg:gap-0 gap-5 justify-center md:ml-5 lg:ml-0  py-3'>
+            <div className='h-[220px] w-[220px] relative group'>
+>>>>>>> 7bc9c6981f76a83fb34f3fe064215ca8399e0ed9
                 <img src="/images/f20.avif" className='h-full w-full' alt="" />
                 <div className='lg:h-[220px] lg:w-[220px] md:h-[225px] md:w-[223px] h-[200px] w-[200px]  absolute -righte-[230px] top-0 group-hover:opacity-100 transition-all duration-700 ease-in-out  bg-[#D83054]/70 opacity-0  text-white flex justify-center items-center'>
                     <InstagramIcon  size={34}/>
