@@ -9,7 +9,6 @@ import Priceng from "./Pages/Priceng"
 import Faq from "./Pages/Faq"
 import NotFoud from "./Pages/NotFoud"
 import News from "./Pages/News"
-import SengelNews from "./Pages/SengelNews"
 
 function App() {
   return (
@@ -22,9 +21,8 @@ function App() {
         <Route path="/Team" element={<Team/>}/>
         <Route path="/Priceng" element={<Priceng/>}/>
         <Route path="/Faq" element={<Faq/>}/>
-        <Route path="/NotFound" element={<NotFoud/>}/>
+        <Route path="*" element={<NotFoud/>}/>
         <Route path="/News" element={<News/>}/>
-        <Route path="/SengelNews" element={<SengelNews/>}/>
         <Route path="/Contact" element={<ContactUs/>}/>
       </Routes>
       </BrowserRouter>
