@@ -1,7 +1,41 @@
-import { CircleArrowOutUpLeftIcon, Clock, Clock1, Facebook, Github, Instagram, Linkedin, LucidePhoneCall, Mail, MessageCircle, MessageCircleReplyIcon, Phone, PhoneCall, Store } from 'lucide-react'
-import React from 'react'
+import { Clock1, Facebook, Github, Instagram, Linkedin, LucidePhoneCall, Mail, MessageCircle, MessageCircleReplyIcon, Phone, PhoneCall, Store } from 'lucide-react'
+import { useState } from 'react';
+import emailjs from '@emailjs/browser';
 
 function Contuct() {
+       const [name,setName] = useState("");
+    const [email,setEmail] = useState("");
+    const [subject,setSubject] = useState("");
+    const [Messege,setMessege] = useState("");
+    function Handelclick(e:any){
+        e.preventDefault();
+        const publi_key = "dBf6x-D_GzZLr3gSr";
+        const template_id = "template_r756xnc";
+        const service_id = "service_ve0cr4c";
+        const content= {
+            from_name : name,
+            from_email : email,
+            subject : subject,
+            to_name : "Nazi Sharifi",
+            message: Messege
+        };
+    emailjs
+      .send(service_id,template_id ,content, {
+        publicKey: publi_key,
+      })
+   .then(() => {
+    alert('SUCCESS!');
+    setName("");
+    setEmail("");
+    setSubject("");
+    setMessege("");
+})
+.catch((error) => {
+     console.error(error); 
+    alert('FAILED...');
+});
+
+    }
   return (
     <div className='h-screen w-full grid grid-cols-2 px-5 py-12 justify-center items-center space-x-2 text-black'>
         <div className='flex flex-col gap-6 '>
@@ -54,15 +88,15 @@ function Contuct() {
         </div>
         {/* div one endded */}
         <div className='w-full'>
-        <div className='flex flex-col shadow-md shadow-gray-500 items-start justify-center gap-5 p-5 w-[87%] mx-auto'>
+        <form onSubmit={Handelclick} className='flex flex-col shadow-md shadow-gray-500 items-start justify-center gap-5 p-5 w-[87%] mx-auto'>
             <h1 className='text-4xl font-Headeing'>Leave A Message</h1>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum illo vel numquam distinctio, assumenda obcaecati, eveniet atque et inventore quibusdam aut.</p>
-            <input type="text" className='p-3 border border-gray-400 rounded-sm w-[90%] mx-auto' placeholder='YOUR NAME' />
-            <input type="text" className='p-3 border border-gray-400 rounded-sm w-[90%] mx-auto' placeholder='YOUR EMAIL' />
-            <input type="text" className='p-3 border border-gray-400 rounded-sm w-[90%] mx-auto' placeholder='SUBJECT' />
-            <textarea name="Messege" className='px-3 h-32 border border-gray-400 rounded-sm w-[90%] mx-auto'  placeholder='TOUR MESSEGE' id=""></textarea>
-            <button className='text-white px-6 py-4 bg-[#D83054] w-[90%] mx-auto rounded-sm'>SEND MESSEGE</button>
-        </div>
+            <input value={name} onChange={(e)=> setName(e.target.value)} type="text" className='p-3 border border-gray-400 rounded-sm w-[90%] mx-auto' placeholder='YOUR NAME' />
+            <input value={email} onChange={(e)=> setEmail(e.target.value)}  type="text" className='p-3 border border-gray-400 rounded-sm w-[90%] mx-auto' placeholder='YOUR EMAIL' />
+            <input value={subject} onChange={(e)=> setSubject(e.target.value)}  type="text" className='p-3 border border-gray-400 rounded-sm w-[90%] mx-auto' placeholder='SUBJECT' />
+            <textarea value={Messege} onChange={(e)=> setMessege(e.target.value)}  name="Messege" className='px-3 h-32 border border-gray-400 rounded-sm w-[90%] mx-auto'  placeholder='TOUR MESSEGE' id=""></textarea>
+            <button onClick={Handelclick} className='text-white px-6 py-4 bg-[#D83054] w-[90%] mx-auto rounded-sm'>SEND MESSEGE</button>
+        </form>
         </div>
     </div>
   )
