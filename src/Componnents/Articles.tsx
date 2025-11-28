@@ -11,7 +11,7 @@ function Articles() {
   publishedAt: string,
 ]
     const [plant,setPlant] = useState<Articals[]>([]);
-    
+    console.log(plant);
     useEffect(()=>{
         async function fetchData() {
           const respons= await fetch(url);
