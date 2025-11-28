@@ -1,4 +1,4 @@
-import React from 'react'
+
 import Navbar from '../Componnents/Navbar'
 import Instagram from '../Componnents/Instagram'
 import Footer from '../Componnents/Footer'

@@ -1,5 +1,3 @@
-import { div } from "framer-motion/client";
-
 export default function Quote(){
     return(
          <div className='h-[70vh] w-full flex justify-end items-center bg-no-repeat bg-cover bg-center bg-[url(/images/r.webp)]'>

@@ -1,5 +1,3 @@
-import React from 'react'
-
 function SomeQuotes() {
   return (
     <div className='h-[70vh] w-full flex justify-end items-center bg-no-repeat bg-cover bg-center bg-fixed bg-[url(/images/HeroPages.webp)]'>

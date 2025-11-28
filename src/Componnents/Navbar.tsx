@@ -1,5 +1,5 @@
-import { ArrowBigDownDashIcon, ChevronDown, Menu, Search, X } from 'lucide-react'
-import React, { useState } from 'react'
+import { ChevronDown, Menu, Search, X } from 'lucide-react'
+import { useState } from 'react'
 
 function Navbar() {
   const [isOpin , setIsOpin] = useState(false);

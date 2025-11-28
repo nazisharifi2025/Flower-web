@@ -1,4 +1,4 @@
-import React from 'react'
+
 import Navbar from '../Componnents/Navbar'
 import HeroContact from '../Componnents/HeroContact'
 import Contuct from '../Componnents/Contuct'

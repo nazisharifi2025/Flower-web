@@ -1,4 +1,4 @@
-import React from 'react'
+
 import Navbar from '../Componnents/Navbar'
 import Abouthero from '../Componnents/Abouthero'
 import Aboutflotrist from '../Componnents/Aboutflotrist'

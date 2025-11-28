@@ -1,4 +1,3 @@
-import { div } from "framer-motion/client";
 import { Calendar1Icon, Phone, QuoteIcon } from "lucide-react";
 import { useEffect, useState } from "react";
 

@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react'
+import { useEffect, useState } from 'react'
 const ApiKey = "sk-KYoQ68f356437b43b12624";
 const url = `https://perenual.com/api/v2/species/details/1?key=${ApiKey}`;
 function Articles() {

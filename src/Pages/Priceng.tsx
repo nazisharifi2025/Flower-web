@@ -1,4 +1,4 @@
-import React from 'react'
+
 import Navbar from '../Componnents/Navbar'
 import HeroPriceng from '../Componnents/HeroPriceng'
 import Instagram from '../Componnents/Instagram'

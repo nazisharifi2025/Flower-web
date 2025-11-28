@@ -1,4 +1,4 @@
-import React from 'react'
+
 // import Hero2 from '../Componnents/Hero2'
 import Navbar from '../Componnents/Navbar'
 import AboutFlower from '../Componnents/AboutFlower'

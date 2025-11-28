@@ -1,4 +1,4 @@
-import { Clock1, Facebook, Github, Instagram, Linkedin, LucidePhoneCall, Mail, MessageCircle, MessageCircleReplyIcon, Phone, PhoneCall, Store } from 'lucide-react'
+import { Clock1, Facebook, Github, Instagram, Linkedin, Mail, MessageCircle,  Phone, Store } from 'lucide-react'
 import { useState } from 'react';
 import emailjs from '@emailjs/browser';
 

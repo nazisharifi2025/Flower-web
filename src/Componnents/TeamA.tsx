@@ -1,7 +1,4 @@
-import { div } from 'framer-motion/client'
 import { Github, Instagram, Linkedin } from 'lucide-react'
-import React from 'react'
-
 export default  function TeamA() {
     const Team =[
         {
