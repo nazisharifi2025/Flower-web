@@ -10,7 +10,7 @@ function Contuct() {
     function Handelclick(e:any){
         e.preventDefault();
         const publi_key = "dBf6x-D_GzZLr3gSr";
-        const template_id = "template_r756xnc";
+        const template_id = "template_b3lir5y";
         const service_id = "service_ve0cr4c";
         const content= {
             from_name : name,
