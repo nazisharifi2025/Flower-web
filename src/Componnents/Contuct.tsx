@@ -37,12 +37,12 @@ function Contuct() {
 
     }
   return (
-    <div className='h-screen w-full grid grid-cols-2 px-5 py-12 justify-center items-center space-x-2 text-black'>
+    <div className='lg:h-screen h-fit w-full grid lg:grid-cols-2 grid-cols-1 px-5 py-12 justify-center items-center space-x-2 text-black'>
         <div className='flex flex-col gap-6 '>
             <h2 className='text-2xl text-[#D83054]'>Contact Us</h2>
             <h1 className='text-5xl font-Headeing'>Get In Touch</h1>
             <p className='text-gray-400'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis voluptatum excepturi modi architecto consequatur maiores nesciunt dolorem, laudantium totam tenetur, non asperiores? Nobis deserunt adipisci voluptas, unde officia laboriosam magni.</p>
-            <div className='w-full grid grid-cols-2 gap-12 my-4 border-b border-gray-400 pb-6'>
+            <div className='w-full grid grid-cols-2 gap-12 lg:my-4 my-6 border-b border-gray-400 pb-6'>
                 <div className='flex items-center justify-center gap-3'>
                     <Store size={50} className='text-[#D83054] font-light'/>
                     <div className='flex flex-col gap-1 '>
@@ -75,9 +75,9 @@ function Contuct() {
                     </div>
                 </div>
             </div>
-            <div className='flex flex-col gap-5 '>
+            <div className='flex flex-col gap-5 mb-6'>
                 <h1 className='text-3xl font-Heaideing'>Sociol Media</h1>
-                <div className='flex space-x-6'>
+                <div className='flex space-x-6 '>
                     <a href="https://www.linkedin.com/in/nazi-sharifi-102735368/" target='_blank' className='p-3 rounded-full bg-blue-900 text-white'><Linkedin/></a>
                     <a href="https://github.com/nazisharifi2025" target='_blank' className='p-3 rounded-full bg-black text-white'><Github/></a>
                     <a href="https://www.instagram.com/nazthe_coder?igsh=bWFzcGxoaXhhcXY0" target='_blank' className='p-3 rounded-full bg-pink-300 text-white'><Instagram/></a>
@@ -88,7 +88,7 @@ function Contuct() {
         </div>
         {/* div one endded */}
         <div className='w-full'>
-        <form onSubmit={Handelclick} className='flex flex-col shadow-md shadow-gray-500 items-start justify-center gap-5 p-5 w-[87%] mx-auto'>
+        <form onSubmit={Handelclick} className='flex flex-col shadow-md shadow-gray-500 items-start justify-center gap-5 p-5 lg:w-[87%] w-full mx-auto'>
             <h1 className='text-4xl font-Headeing'>Leave A Message</h1>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum illo vel numquam distinctio, assumenda obcaecati, eveniet atque et inventore quibusdam aut.</p>
             <input value={name} onChange={(e)=> setName(e.target.value)} type="text" className='p-3 border border-gray-400 rounded-sm w-[90%] mx-auto' placeholder='YOUR NAME' />

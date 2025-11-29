@@ -30,9 +30,9 @@ function OurStore() {
         },
     ]
   return (
-    <div className='h-fit w-full py-12 my-12 flex justify-evenly items-center space-x-6 p-6'>
+    <div className='h-fit w-full py-12 my-12 flex lg:flex-row flex-col justify-evenly items-center space-x-6 p-6'>
         {Card.map((item, index) => (
-        <div key={index} className='h-[90vh] w-[320px] flex flex-col gap-3 '>
+        <div key={index} className='lg:h-[90vh] h-[70vh] lg:w-[320px] w-full mx-auto flex flex-col gap-3 '>
             <img src={item.img} className='h-[80%] w-full' alt="" />
             <h1 className='text-2xl font-Headeing'>{item.h1}</h1>
             <span className='text-gray-500 font-normal'>{item.St}</span>
