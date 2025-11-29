@@ -3,7 +3,7 @@ function SpecialPricing() {
     const SpecialP = [
         {
             h1: "Wedding",
-            img: "public/images/Screenshot 2025-10-13 113432.png",
+            img: "/images/Screenshot 2025-10-13 113432.png",
             li1: "1 Bouquet",
             li2: "Toss Bouquet",
             li3: "Flower Girl Satin Basket",
@@ -13,7 +13,7 @@ function SpecialPricing() {
         },
         {
             h1: "Ceremony",
-            img: "public/images/Screenshot 2025-10-13 113444.png",
+            img: "/images/Screenshot 2025-10-13 113444.png",
             li1: "3 Bouquet",
             li2: "Toss Bouquet",
             li3: "Flower Girl Satin Basket",
@@ -23,7 +23,7 @@ function SpecialPricing() {
         },
         {
             h1: "Anniversary",
-            img: "public/images/Screenshot 2025-10-13 113503.png",
+            img: "/images/Screenshot 2025-10-13 113503.png",
             li1: "5 Bouquet",
             li2: "Toss Bouquet",
             li3: "Flower Girl Satin Basket",

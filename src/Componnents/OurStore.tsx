@@ -1,7 +1,7 @@
 function OurStore() {
     const Card = [
         {
-            img: "public/images/con3.jpg",
+            img: "/images/con3.jpg",
             h1: "Denpasar",
             St: "Seroja ST. 4421 Denpasar, Bali",
             num: "(+93) 81-342-3471",
