@@ -1,6 +1,4 @@
 import { ChevronRight } from 'lucide-react'
-import React from 'react'
-
 function HeroTeam() {
   return (
         <div className='lg:h-[60vh] h-[30vh] p-12 w-full bg-no-repeat bg-cover bg-center bg-[url(/images/img.jpg)] flex flex-col gap-5 justify-end items-end'>

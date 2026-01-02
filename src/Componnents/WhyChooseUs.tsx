@@ -1,5 +1,3 @@
-import React from 'react'
-
 function WhyChooseUs() {
   return (
     <div className='lg:h-[90vh] md:h-[60vh] h-[70vh] w-full bg-no-repeat bg-cover text-white p-5 bg-center bg-[url(/images/hero7.jpg)] bg-fixed flex flex-col justify-center items-end '>

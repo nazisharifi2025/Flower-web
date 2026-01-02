@@ -1,5 +1,3 @@
-import React from 'react'
-
 function Hero2() {
   return (
     <div className='md:h-screen h-[40vh]  w-full bg-no-repeat bg-cover bg-center bg-[url(/images/hero9.jpg)] flex justify-end items-center'>

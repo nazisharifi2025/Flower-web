@@ -1,6 +1,4 @@
-import { CheckCircle, CheckIcon } from 'lucide-react'
-import React from 'react'
-
+import { CheckIcon } from 'lucide-react'
 function SpecialPricing() {
     const SpecialP = [
         {

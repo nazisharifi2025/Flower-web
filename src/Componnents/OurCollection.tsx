@@ -1,6 +1,4 @@
 import { Check } from 'lucide-react'
-import React from 'react'
-
 function OurCollection() {
   return (
     <div className='lg:h-screen h-fit w-full grid lg:grid-cols-3 grid-cols-1 gap-4 lg:my-5 my-24 lg:px-6 md:px-24 px-4 items-center justify-center'>

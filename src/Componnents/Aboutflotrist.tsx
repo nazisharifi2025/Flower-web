@@ -1,5 +1,3 @@
-import { div } from "framer-motion/client";
-
 export default function Aboutflotrist (){
     return(
         <div className="h-[60vh] w-full bg-stone-50">

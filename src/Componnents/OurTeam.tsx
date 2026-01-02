@@ -1,6 +1,4 @@
 import { Github, Instagram, Linkedin } from 'lucide-react'
-import React from 'react'
-
 function OurTeam() {
     const Team =[
         {

@@ -1,6 +1,4 @@
 import { InstagramIcon } from 'lucide-react'
-import React from 'react'
-
 function Instagram() {
   return (
     <div className='h-fit w-full flex flex-col gap-5 items-center justify-center'>

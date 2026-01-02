@@ -1,5 +1,4 @@
-import { ChevronDown, Github, Instagram, Linkedin, Phone } from 'lucide-react'
-import React from 'react'
+import { Github, Instagram, Linkedin, Phone } from 'lucide-react'
 
 function Footer() {
   return (
