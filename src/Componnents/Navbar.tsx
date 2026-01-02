@@ -27,12 +27,12 @@ function Navbar() {
                 <a className='hover:text-[#D83054]' href="/">Home</a>
                 <a className='hover:text-[#D83054]' href="/About">About Us</a>
                 <li className=' group'><a className='hover:text-[#D83054] flex items-center' href="#" >Pages <ChevronDown size={20}/></a>
-                <ul className=' group-hover:flex transition-all duration-700 mt-0 bg-pink-100 ml-10 text-white w-48 z-50 flex-col'>
-                    <li className='py-2 px-3 underline hover:bg-pink-50 w-full'><a href="/Protfolio">Protfolio</a></li>
-                    <li className='py-2 px-3 underline hover:bg-pink-50 w-full'><a href="/Team">Taem</a></li> 
-                    <li className='py-2 px-3 underline hover:bg-pink-50 w-full'><a href="/Priceng">Priceng</a></li>
-                    <li className='py-2 px-3 underline hover:bg-pink-50 w-full'><a href="/Faq">FAQ</a></li>
-                    <li className='py-2 px-3 underline hover:bg-pink-50 w-full'><a href="NotFound">404 pages</a></li>
+                <ul className=' group-hover:flex transition-all duration-700 mt-0 bg-pink-100 ml-10 text-black w-48 z-50 flex-col'>
+                    <li className='py-2 px-3 hover:bg-pink-50 w-full'><a href="/Protfolio">Protfolio</a></li>
+                    <li className='py-2 px-3 hover:bg-pink-50 w-full'><a href="/Team">Taem</a></li> 
+                    <li className='py-2 px-3 hover:bg-pink-50 w-full'><a href="/Priceng">Priceng</a></li>
+                    <li className='py-2 px-3 hover:bg-pink-50 w-full'><a href="/Faq">FAQ</a></li>
+                    <li className='py-2 px-3 hover:bg-pink-50 w-full'><a href="NotFound">404 pages</a></li>
                  </ul>
                 </li>
                 <li className='reletev group'><a className='hover:text-[#D83054] flex items-center' href="/News">News</a></li>
