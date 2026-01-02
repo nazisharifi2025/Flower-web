@@ -1,5 +1,5 @@
 import { ChevronRight } from 'lucide-react'
-import React, { useState } from 'react'
+import { useState } from 'react'
 
 function FaqCom() {
     const Faq = [
@@ -46,7 +46,7 @@ function FaqCom() {
             </div>
             </div>
             <div className='lg:h-[120vh] md:h-[65vh] h-[50vh] shadow-lg absolute lg:-top-12 md:-bottom-18 -bottom-3 md:right-12 right-4 shadow-gray-400 md:w-[500px] w-[90%] border-8 border-white outline-4 outline-white overflow-hidden'>
-            <img src="public/images/faq.jpg" className='h-full w-full hover:scale-125 transition-all duration-700 ease-in-out' alt="" />
+            <img src="/images/faq.jpg" className='h-full w-full hover:scale-125 transition-all duration-700 ease-in-out' alt="" />
         </div>
         </div>
         {/* div endded */}
