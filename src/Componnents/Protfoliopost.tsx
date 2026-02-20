@@ -6,7 +6,7 @@ function Protfoliopost() {
             p: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod incididunt."
         },
         {
-            img: "public/images/flower-1-e1620281175317.jpg",
+            img: "/images/flower-1-e1620281175317.jpg",
             h1: "Wedding Flower Ideas",
             p: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod incididunt."
         },
