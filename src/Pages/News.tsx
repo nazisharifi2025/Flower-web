@@ -1,6 +1,6 @@
 import API from "../Componnents/API"
 import Footer from "../Componnents/Footer"
-import Heronews from "../Componnents/Heronews"
+import Heronews from "../Componnents/HeroNews"
 import Instagram from "../Componnents/Instagram"
 import Navbar from "../Componnents/Navbar"
 
