@@ -6,7 +6,7 @@ function Hero() {
         initial={{x: 400 }}
         whileInView={{x: 0}}
         transition={{duration: 4}} className='lg:h-full h-[40%] flex justify-center items-center'>
-            <img src="public/images/hero.webp" alt="" />
+            <img src="/images/hero.webp" alt="" />
         </motion.div>
         <motion.div
         initial={{x: -400 }}
