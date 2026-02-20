@@ -1,9 +1,9 @@
 function WhyChooseUs() {
   return (
-    <div className='lg:h-[90vh] md:h-[60vh] h-[70vh] w-full bg-no-repeat bg-cover text-white p-5 bg-center bg-[url(/images/hero7.jpg)] bg-fixed flex flex-col justify-center items-end '>
+    <div className='lg:h-[90vh] md:h-[60vh] h-[90vh] w-full bg-no-repeat bg-cover text-white p-5 bg-center bg-[url(/images/hero7.jpg)] bg-fixed flex flex-col justify-center items-end '>
         <div className='h-full p-5 flex flex-col gap-5 items-start lg:w-[60%] md:w-[80%] w-full'>
         <h2 className='text-[#D83054] text-xl'>Why Choose Us</h2>
-        <h1 className='text-4xl font-Headeing'>We're The Best Flower Decorations In Town</h1>
+        <h1 className='md:text-4xl text-3xl font-Headeing'>We're The Best Flower Decorations In Town</h1>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Doneca feugiat purus. Duis turpis nunc aliquam id nunc acconvallis dictum nisi. Curabitur vehicula tincidunt sapien velcac. Donec diam augue consequat sit amet metus acbibendum mattis massauis mollis ligula pretium consequat.</p>
         <div className='text-xl pb-1 border-b-2 border-[#D83054] flex justify-between w-[95%] items-center'>
         <p>Delivery On Time</p>
