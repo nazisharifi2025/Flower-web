@@ -65,12 +65,12 @@ function Testemonial() {
     },
   ]
   return (
-    <div className='lg:h-[70vh] md:h-[47vh] h-[60vh] w-full flex justify-end items-center my-5 lg:px-8 px-0 bg-cover bg-no-repeat bg-center bg-[url(/images/hero6.jpg)] '>
+    <div className='lg:h-[70vh] md:h-[47vh] h-[67vh] w-full flex justify-end items-center my-5 lg:px-8 px-0 bg-cover bg-no-repeat bg-center bg-[url(/images/hero6.jpg)] '>
         <div className='md:w-[600px] w-full h-full md:bg-white bg-black/45 p-6'>
           <Slider {...settings}>
             {Cards.map((items , index)=>(
             <div key={index} className='flex test flex-col justify-center items-cente h-full w-full gap-4 border border-gray-200 relative'>
-                <Quote size={62} className='text-[#D83054] absolute left-[45%]  -top-4 p-3 bg-white'/>
+                <Quote size={62} className='text-[#D83054] absolute left-[45%]  -top-4 md:p-3 p-1.5 bg-white'/>
                 <p className='md:text-gray-500 text-gray-300 text-center w-[90%] mx-auto'>{items.des}</p>
                 <img src={items.imgUrl} className='h-24 w-24 rounded-full mx-auto' alt="" />
                 <h1 className='text-3xl md:text-black text-white mx-auto'>{items.name}</h1>
