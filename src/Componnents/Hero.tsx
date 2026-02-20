@@ -6,12 +6,12 @@ function Hero() {
         initial={{x: 400 }}
         whileInView={{x: 0}}
         transition={{duration: 4}} className='lg:h-full h-[40%] flex justify-center items-center'>
-            <img src="/images/hero.webp" alt="" />
+            <img src="/images/hero.webp" alt="" className='z-50' />
         </motion.div>
         <motion.div
         initial={{x: -400 }}
         whileInView={{x: 0}}
-        transition={{duration: 4}} className=" lg:h-full h-[70vh] lg:w-1/2 md:w-[90%] w-full flex justify-center md:px-8 px-2 items-center">
+        transition={{duration: 4}} className=" lg:h-full h-[70vh] lg:w-1/2 md:w-[90%] z-50 w-full flex justify-center md:px-8 px-2 items-center">
             <div className='bg-gray-200 rounded-2xl md:h-[50%] h-[70%] md:w-[80%] w-full shadow-md shadow-gray-400 flex flex-col justify-center items-center gap-3'>
                 <h3 className='text-xl'>Alamanda Rose</h3>
                 <h1 className='font-paci text-pink-800 text-2xl'>Make Fresh Flowers As You Mean It</h1>
