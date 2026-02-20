@@ -3,8 +3,8 @@ function ImgCard() {
   return (
     <div className='lg:h-[130vh] h-fit  lg:flex-row flex-col w-full flex lg:justify-end gap-12 lg:p-12 md:p-24 px-5 md:mb-0 mb-92 mt-12 '>
         <motion.div
-        initial={{y: -210 }}
-        whileInView={{y: 0}}
+        initial={{x: -210 }}
+        whileInView={{x: 0}}
         transition={{duration: 2}}
          className='md:h-[500px] md:w-[400px] h-[400px] w-[90%] border-8 shadow-xl shadow-gray-400 relative outline-4 border-white outline-white'>
             <img src="/images/flower1.jpg" className='h-full w-full' alt="" />
@@ -13,8 +13,8 @@ function ImgCard() {
         </div>
         </motion.div>
         <motion.div
-        initial={{y: 210 }}
-        whileInView={{y: 0}}
+        initial={{x: 210 }}
+        whileInView={{x: 0}}
         transition={{duration: 2}}
          className='md:h-[400px] md:w-[600px] h-[300px] w-[90%] mx-auto border-8 relative shadow-xl shadow-gray-400 outline-4 lg:my-0 my-28 border-white outline-white'>
             <img src="/images/flower-800x533.jpg" className='h-full w-full' alt="" />
